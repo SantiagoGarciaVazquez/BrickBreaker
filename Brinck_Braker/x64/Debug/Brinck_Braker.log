@@ -1,0 +1,18 @@
+﻿  GraphicsRunner.cpp
+C:\Brick Braker\Brinck_Braker\Brinck_Braker\GraphicsRunner.cpp(31,23): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+C:\Brick Braker\Brinck_Braker\Brinck_Braker\GraphicsRunner.cpp(31,23): warning C4244:         with
+C:\Brick Braker\Brinck_Braker\Brinck_Braker\GraphicsRunner.cpp(31,23): warning C4244:         [
+C:\Brick Braker\Brinck_Braker\Brinck_Braker\GraphicsRunner.cpp(31,23): warning C4244:             T=unsigned int
+C:\Brick Braker\Brinck_Braker\Brinck_Braker\GraphicsRunner.cpp(31,23): warning C4244:         ]
+C:\Brick Braker\Brinck_Braker\Brinck_Braker\GraphicsRunner.cpp(32,24): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+C:\Brick Braker\Brinck_Braker\Brinck_Braker\GraphicsRunner.cpp(32,24): warning C4244:         with
+C:\Brick Braker\Brinck_Braker\Brinck_Braker\GraphicsRunner.cpp(32,24): warning C4244:         [
+C:\Brick Braker\Brinck_Braker\Brinck_Braker\GraphicsRunner.cpp(32,24): warning C4244:             T=unsigned int
+C:\Brick Braker\Brinck_Braker\Brinck_Braker\GraphicsRunner.cpp(32,24): warning C4244:         ]
+C:\Brick Braker\Brinck_Braker\Brinck_Braker\GraphicsRunner.cpp(49,37): warning C4267: '=': conversion from 'size_t' to 'unsigned long', possible loss of data
+C:\Brick Braker\Brinck_Braker\Brinck_Braker\GraphicsRunner.cpp(260,34): warning C4244: '=': conversion from 'T' to 'float', possible loss of data
+C:\Brick Braker\Brinck_Braker\Brinck_Braker\GraphicsRunner.cpp(260,34): warning C4244:         with
+C:\Brick Braker\Brinck_Braker\Brinck_Braker\GraphicsRunner.cpp(260,34): warning C4244:         [
+C:\Brick Braker\Brinck_Braker\Brinck_Braker\GraphicsRunner.cpp(260,34): warning C4244:             T=unsigned int
+C:\Brick Braker\Brinck_Braker\Brinck_Braker\GraphicsRunner.cpp(260,34): warning C4244:         ]
+  Brinck_Braker.vcxproj -> C:\Brick Braker\Brinck_Braker\x64\Debug\Brinck_Braker.exe
