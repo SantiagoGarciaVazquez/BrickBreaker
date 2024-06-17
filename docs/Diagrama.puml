@@ -1,0 +1,18 @@
+@startuml
+
+class BrickBreaker
+class Bola
+class Ladrillo
+class Paleta 
+class Nivel
+class Ventana
+
+BrickBreaker *-- Bola
+BrickBreaker *-- Paleta
+BrickBreaker *-- Nivel
+BrickBreaker o-- Ventana
+Bola *-- Ladrillo
+Paleta *-- Bola
+Nivel -- Ladrillo
+
+@enduml
