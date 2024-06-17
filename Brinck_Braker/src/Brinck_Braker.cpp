@@ -7,9 +7,9 @@ using namespace sf;
 
 int main(int numArgs, char* args[])
 {
-	// Esto cambia el directorio de trabajo a la ubicación del ejecutable //
+	// Esto cambia el directorio de trabajo a la ubicaciï¿½n del ejecutable //
 
-	// Obtener la última posición de '/'
+	// Obtener la ï¿½ltima posiciï¿½n de '/'
 	std::string aux(args[0]);
 
 	// obtenga '/' o '\\' dependiendo de Unix/mac o Windows.
@@ -25,10 +25,10 @@ int main(int numArgs, char* args[])
 	// Inicialice la ventana con antialiasing y una velocidad de cuadros fija
 	ContextSettings settings;
 	settings.antialiasingLevel = 8;
-	RenderWindow window(VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "Brick Breaker (SAM)", Style::Default, settings);
+	RenderWindow window(VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "Brick Breaker", Style::Default, settings);
 	window.setFramerateLimit(60);
 
-	// Cree un corredor de gráficos para contener todos los objetos del juego y manejar el bucle de visualización de dibujo claro.
+	// Cree un corredor de grï¿½ficos para contener todos los objetos del juego y manejar el bucle de visualizaciï¿½n de dibujo claro.
 	GraphicsRunner game = GraphicsRunner(window);
 
 	while (window.isOpen()) {
