@@ -43,7 +43,7 @@ GraphicsRunner::GraphicsRunner(RenderWindow& window)
     // Load the font and base text objects
     loadFont();
     addText("Level 0", DEFAULT_COLOR, (unsigned int)(BANNER_HEIGHT - 2 * BARRIER_BUFFER), false, 'l');
-    addText("Brick Breaker (Sam)", Color(25, 200, 229), (unsigned int)(BANNER_HEIGHT - 2 * BARRIER_BUFFER), false, 'm');
+    addText("Brick Breaker", Color(25, 200, 229), (unsigned int)(BANNER_HEIGHT - 2 * BARRIER_BUFFER), false, 'm');
     addText("00:00", DEFAULT_COLOR, (unsigned int)(BANNER_HEIGHT - 2 * BARRIER_BUFFER), false, 'r');
 
     baseNumTextObjects_ = text_.size();
