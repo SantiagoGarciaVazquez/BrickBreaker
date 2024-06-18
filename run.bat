@@ -1,2 +1,0 @@
-g++ src/Ball.cpp src/Barrier.cpp src/Brick.cpp src/Brinck_Braker.cpp src/GraphicsRunner.cpp src/Paddle.cpp src/StageBuilder.cpp  -Iinclude -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -o game.exe
-game.exe

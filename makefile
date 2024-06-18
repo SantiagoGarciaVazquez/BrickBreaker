@@ -1,29 +1,27 @@
-# Directorios de origen y destino
-SRC_DIR := src
-BIN_DIR := bin
+# Makefile
 
-SFML := -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -lbox2d
+# Variables
+CXX = g++
+SRC_DIR = src
+INCLUDE_DIR = include
+LIBS = -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
+OUTPUT = game.exe
+SOURCES = $(SRC_DIR)/Ball.cpp $(SRC_DIR)/Barrier.cpp $(SRC_DIR)/Brick.cpp $(SRC_DIR)/Brinck_Braker.cpp $(SRC_DIR)/GraphicsRunner.cpp $(SRC_DIR)/Paddle.cpp $(SRC_DIR)/StageBuilder.cpp
 
-# Obtener todos los archivos .cpp en el directorio de origen
-CPP_FILES := $(wildcard $(SRC_DIR)/*.cpp)
+# Regla principal
+all: $(OUTPUT)
 
-# Generar los nombres de los archivos .exe en el directorio de destino
-EXE_FILES := $(patsubst $(SRC_DIR)/%.cpp,$(BIN_DIR)/%.exe,$(CPP_FILES))
+# Regla para compilar
+$(OUTPUT): $(SOURCES)
+	$(CXX) $(SOURCES) -I$(INCLUDE_DIR) $(LIBS) -o $(OUTPUT)
 
-# Regla para compilar cada archivo .cpp y generar el archivo .exe correspondiente
-$(BIN_DIR)/%.exe: $(SRC_DIR)/%.cpp
-	g++ $< -o $@ $(SFML) -Iinclude
+# Regla para ejecutar
+run: $(OUTPUT)
+	./$(OUTPUT)
 
-# Regla por defecto para compilar todos los archivos .cpp
-all: $(EXE_FILES)
-
-# Regla para ejecutar cada archivo .exe
-run%: $(BIN_DIR)/%.exe
-	./$<
-
-# Regla para limpiar los archivos generados
+# Regla para limpiar
 clean:
-	rm -f $(EXE_FILES)
+	rm -f $(OUTPUT)
 
-.PHONY: all clean
-.PHONY: run-%
+# Regla phony
+.PHONY: all run clean
