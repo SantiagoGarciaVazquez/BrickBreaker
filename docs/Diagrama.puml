@@ -1,18 +1,26 @@
 @startuml
 
-class BrickBreaker
-class Bola
-class Ladrillo
-class Paleta 
-class Nivel
-class Ventana
+class Ball
+class Barrier
+class Brick
+class Brinck_Braker 
+class GraphicsRunner
+class Musica
+class Paddle
+class StageBuilder
 
-BrickBreaker *-- Bola
-BrickBreaker *-- Paleta
-BrickBreaker *-- Nivel
-BrickBreaker o-- Ventana
-Bola *-- Ladrillo
-Paleta *-- Bola
-Nivel -- Ladrillo
+Brinck_Braker *-- Ball
+Brinck_Braker *-- Paddle
+Brinck_Braker *-- Brick
+Brinck_Braker *-- Barrier
+Brinck_Braker *-- Musica
+
+Brinck_Braker o-- GraphicsRunner
+Brinck_Braker o-- StageBuilder
+
+Paddle o-- Ball
+
+Brick --|> Barrier
+
 
 @enduml
