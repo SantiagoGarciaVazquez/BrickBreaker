@@ -286,7 +286,7 @@ void GraphicsRunner::addText(string str, Color color, unsigned int size, bool ne
 }
 
 void GraphicsRunner::loadFont() {
-    if (!font_.loadFromFile("BrickBreakerData/bebas.ttf")) {
+    if (!font_.loadFromFile("./assets/fonts/bebas.ttf")) {
         abort();
     }
 }
