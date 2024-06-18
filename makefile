@@ -6,23 +6,22 @@ SRC_DIR = src
 INCLUDE_DIR = include
 LIBS = -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
 OUTPUT = game.exe
-SOURCES = $(wildcard $(SRC_DIR)/*.cpp)
-OBJECTS = $(SOURCES:.cpp=.o)
+SOURCES = $(SRC_DIR)/Ball.cpp $(SRC_DIR)/Barrier.cpp $(SRC_DIR)/Brick.cpp $(SRC_DIR)/Brinck_Braker.cpp $(SRC_DIR)/GraphicsRunner.cpp $(SRC_DIR)/Paddle.cpp $(SRC_DIR)/StageBuilder.cpp
 
 # Regla principal
 all: $(OUTPUT)
 
 # Regla para compilar
-%.o: %.cpp
-    $(CXX) -c $< -I$(INCLUDE_DIR) -o $@
-
-$(OUTPUT): $(OBJECTS)
-    $(CXX) $(OBJECTS) $(LIBS) -o $(OUTPUT)
+$(OUTPUT): $(SOURCES)
+	$(CXX) $(SOURCES) -I$(INCLUDE_DIR) $(LIBS) -o $(OUTPUT)
 
 # Regla para ejecutar
 run: $(OUTPUT)
-    ./$(OUTPUT)
+	./$(OUTPUT)
 
 # Regla para limpiar
 clean:
-    rm -f $(SRC_DIR)/*.o $(OUTPUT)
+	rm -f $(OUTPUT)
+
+# Regla phony
+.PHONY: all run clean
