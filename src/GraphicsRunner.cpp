@@ -56,8 +56,8 @@ GraphicsRunner::GraphicsRunner(RenderWindow& window)
 
     // Instead of showing "Level 1" show the intro text, also mark that this text is displayed by setting timerLength_
     timerLength_ = -1;
-    addText("GET FUCKED", Color(25, 200, 229), 54);
-    addText("Por Sam y Santiago", DEFAULT_COLOR, 34, false);
+    addText("Brick Breaker", Color(25, 200, 229), 54);
+    addText("Por Sam", DEFAULT_COLOR, 34, false);
     addText("Usa J/L para moverte, A/D para rotar y espacio para soltar una pelota.", DEFAULT_COLOR, 34, false);
 }
 
