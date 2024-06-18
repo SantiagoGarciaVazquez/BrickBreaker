@@ -15,15 +15,15 @@ El jugador controla una paleta en la parte inferior de la pantalla utilizando el
 
 Al destruir un ladrillo, existe la posibilidad de que deje caer un potenciador generado aleatoriamente que ayudará o dificultará al jugador.
 
- **Vida Extra:** Al recogerla, este potenciador aumenta las vidas del jugador en 1
+<img style="padding-right: 10px" src="./assets/imagenes/extra-life.png"></image> **Vida Extra:** Al recogerla, este potenciador aumenta las vidas del jugador en 1
 
- **Menos Vida:** Al recogerlo, este potenciador reduce las vidas del jugador en 1
+<img style="padding-right: 10px" src="assets/imagenes/lose-life.png"></image> **Menos Vida:** Al recogerlo, este potenciador reduce las vidas del jugador en 1
 
- **Acelerar:** Al recogerlo, este potenciador aumenta la velocidad de la pelota
+<img style="padding-right: 10px" src="assets/imagenes/speed-up.png"></image> **Acelerar:** Al recogerlo, este potenciador aumenta la velocidad de la pelota
 
- **Ralentizar:**  Al recogerse, este potenciador reduce la velocidad de la pelota
+<img style="padding-right: 10px" src="assets/imagenes/slow-down.png"></image> **Ralentizar:**  Al recogerse, este potenciador reduce la velocidad de la pelota
 
- **Nueva bola:** Al recogerse, este potenciador añade una bola más al juego.
+<img style="padding-right: 20px" src="assets/imagenes/new-ball.png"></image> **Nueva bola:** Al recogerse, este potenciador añade una bola más al juego.
 
 
 ### Carpetas
