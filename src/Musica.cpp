@@ -8,7 +8,7 @@ private:
 
 public:
     MusicPlayer() : window(sf::VideoMode(800, 600), "Reproductor de musica") {
-        if (!music.openFromFile("./assets/Musica/Champions.ogg")) {
+        if (!music.openFromFile("./assets/Musica/Cancion.ogg")) {
             throw std::runtime_error("Error al cargar el archivo de música");
         }
     }
