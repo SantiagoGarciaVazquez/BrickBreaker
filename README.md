@@ -17,7 +17,7 @@ El jugador controla una paleta en la parte inferior de la pantalla utilizando la
 <img src="assets/imagenes/cap 1.jpg" width=640></image>
 
 ## Diagrama.puml
-<img src="assets/imagenes/cap 1.2.png" width=640></image>
+<img src="assets/imagenes/Cap 1.2.png" width=640></image>
 
 
 
