@@ -7,6 +7,8 @@ En BrickBreaker, el objetivo es romper todos los ladrillos en la pantalla usando
 
 ![Video](assets/imagenes/video r.mp4)
 
+https://github.com/SantiagoGarciaVazquez/BrickBreaker/assets/159966223/0f1b9944-de60-4253-a91f-4e669a5230f6
+
 ## Gameplay
 
 El jugador controla una paleta en la parte inferior de la pantalla utilizando las teclas 'J' y 'L'. Para ajustar la dirección de la paleta, puede usar las teclas 'A' y 'D'. Al comienzo del juego, el jugador lanza la pelota presionando la tecla 'SPACE'. Si la pelota choca con el centro de la paleta, rebotará hacia arriba, y cuanto más cerca del borde de la paleta toque la pelota, más ángulo tendrá el rebote. Los ladrillos se destruyen con un solo golpe de la pelota. Después de destruir todos los ladrillos de la pantalla, el jugador pasará al siguiente nivel. Si la pelota pasa la barrera inferior de la pantalla, la partida terminará. ¡Buena suerte y diviértete jugando!
