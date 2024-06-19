@@ -17,8 +17,6 @@ El jugador controla una paleta en la parte inferior de la pantalla utilizando el
 <img src="assets/imagenes/cap 1.jpg" width=640></image>
 
 
-
-
 ### Carpetas
 
 ##### bin/ - Contiene los ejecutables del proyecto
@@ -26,6 +24,25 @@ El jugador controla una paleta en la parte inferior de la pantalla utilizando el
 ##### include/ - Los archivos de cabecera 
 ##### assets/ - Contiene los recuros del proyecto
 ##### docs/ - Contiene la documentacion del proyecto
+
+## Installation
+Clonar el repositorio.
+
+```bash
+git clone https://github.com/SantiagoGarciaVazquez/BrickBreaker.git
+```
+
+Instalar el programa.
+
+```bash
+make
+```
+
+Una vez completada la instalación, se puede jugar al juego ejecutando el siguiente comando en el directorio raíz del proyecto.
+
+```bash
+make run
+```
 
 ## Complementos necesarios en Visual Studio Code
 
