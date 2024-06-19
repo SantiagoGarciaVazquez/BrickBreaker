@@ -7,8 +7,8 @@ class Brinck_Braker
 class GraphicsRunner
 class Paddle
 class StageBuilder
+class Object
 
-class Sienna
 Brinck_Braker "1" *-- "*" Ball
 Brinck_Braker "1" *-- "1" Paddle
 Brinck_Braker "1" *-- "*" Brick
@@ -17,9 +17,8 @@ Brinck_Braker "1 "*--  "*" Barrier
 Brinck_Braker "1" o-- "1" GraphicsRunner
 Brinck_Braker "1" o-- "1 +"StageBuilder
 
-Paddle "1" o-- "*" Ball
-
-Brick --|> Object
-
-
+Brick --|>  Object
+Ball  --|> Object
+Paddle --|> Object
+Barrier--|> Object
 @enduml
