@@ -25,7 +25,7 @@ El jugador controla una paleta en la parte inferior de la pantalla utilizando el
 ##### assets/ - Contiene los recuros del proyecto
 ##### docs/ - Contiene la documentacion del proyecto
 
-## Installation
+## Instalación
 Clonar el repositorio.
 
 ```bash
