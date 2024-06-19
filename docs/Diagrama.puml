@@ -8,6 +8,7 @@ class GraphicsRunner
 class Paddle
 class StageBuilder
 
+class Sienna
 Brinck_Braker "1" *-- "*" Ball
 Brinck_Braker "1" *-- "1" Paddle
 Brinck_Braker "1" *-- "*" Brick
