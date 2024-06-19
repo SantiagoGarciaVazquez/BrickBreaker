@@ -1,26 +1,24 @@
-@startuml
+@startuml Brinck_Braker
 
 class Ball
 class Barrier
 class Brick
 class Brinck_Braker 
 class GraphicsRunner
-class Musica
 class Paddle
 class StageBuilder
 
-Brinck_Braker "1" *-- Ball
-Brinck_Braker *-- Paddle
-Brinck_Braker *-- Brick
-Brinck_Braker *-- Barrier
-Brinck_Braker *-- Musica
+Brinck_Braker "1" *-- "*" Ball
+Brinck_Braker "1" *-- "1" Paddle
+Brinck_Braker "1" *-- "*" Brick
+Brinck_Braker "1 "*--  "*" Barrier
 
-Brinck_Braker o-- GraphicsRunner
-Brinck_Braker o-- StageBuilder
+Brinck_Braker "1" o-- "1" GraphicsRunner
+Brinck_Braker "1" o-- "1 +"StageBuilder
 
-Paddle o-- Ball
+Paddle "1" o-- "*" Ball
 
-Brick --|> Barrier
+Brick --|> Object
 
 
 @enduml

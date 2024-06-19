@@ -5,7 +5,7 @@
 En BrickBreaker, el objetivo es romper todos los ladrillos en la pantalla usando una bola y una paleta. El jugador controla la paleta para evitar que la bola caiga fuera de la pantalla, reflejando la bola hacia los ladrillos para romperlos.
 
 
-![Gameplay GIF](assets/imagenes/brick_breaker.gif)
+![Gameplay GIF](assets/imagenes/game.mp4)
 
 ## Gameplay
 
