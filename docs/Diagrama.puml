@@ -9,7 +9,7 @@ class Musica
 class Paddle
 class StageBuilder
 
-Brinck_Braker *-- Ball
+Brinck_Braker "1" *-- Ball
 Brinck_Braker *-- Paddle
 Brinck_Braker *-- Brick
 Brinck_Braker *-- Barrier
